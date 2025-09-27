@@ -1,0 +1,26 @@
+# Alacritty Configuration File
+
+[window]
+opacity = 0.3
+
+blur = true
+decorations = "full"
+
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
+bold = { family = "FiraCode Nerd Font", style = "Bold" }
+italic = { family = "FiraCode Nerd Font", style = "Italic" }
+size = 9
+
+[colors]
+[colors.primary]
+background = "#1e2127"
+foreground = "#abb2bf"
+
+[terminal.shell]
+program = "/usr/bin/fish"
+args = ["-c", "neofetch; exec fish"]
+
+[window.padding]
+x = 10
+y = 10
